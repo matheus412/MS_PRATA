@@ -15,7 +15,7 @@ body {
     background-size: cover;
     background-position: center;
     text-align: center;
-    overflow: auto;
+    overflow: hidden;
     margin: auto;
 }
 
@@ -82,4 +82,14 @@ footer{
 footer a{
     color: white;
     text-decoration: none;
+}
+
+@media only screen and (orientation: landscape) {
+    body {
+        overflow: auto !important;
+    }
+    header{
+        padding-top: 10px;
+    }
+
 }
