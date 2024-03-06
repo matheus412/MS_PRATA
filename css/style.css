@@ -69,9 +69,7 @@ header p{
 }
 
 footer{
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
+    padding-top: 80px;
     color: white;
     font-size: 0.7em;
     margin: auto;
