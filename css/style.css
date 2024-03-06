@@ -71,7 +71,10 @@ header p{
 }
 
 footer{
-    padding-top: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 10px;
     color: white;
     font-size: 0.7em;
     margin: auto;
@@ -90,6 +93,10 @@ footer a{
     }
     header{
         padding-top: 10px;
+    }
+
+    footer{
+        position: relative;
     }
 
 }
