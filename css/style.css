@@ -11,6 +11,7 @@
 body {
     background: url(../imagens/fundo.svg);
     height: 100vh;
+    overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
